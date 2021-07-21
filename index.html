@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> School Website </title>
+        <meta name="viewport" content="width=device, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>    
+                </button>
+                <a id="nav_bar_school" class="navbar-brand" href="#"> American International School </a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li> <a href="#campus_life"> Campus Life </a> </li>
+                    <li> <a href="#achievements"> Achievements </a> </li>
+                    <li> <a href="#new"> What's New </a> </li>
+                    <li> <a href="#alumni"> Alumni </a> </li>
+                    <li> <a href="#contactUs"> Contact Us </a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <img id="school_photo" src="School Picture.jpeg" style="width: 980px; padding-left: 280px; padding-top: 10px;" alt="">
+
+        <br><br>
+
+        <div class="announcement">
+            <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to ask queries on admin@ais.edu.hk ***
+            </marquee>
+        </div>
+
+        <div class="page-header" id="campus_life"> 
+            <h2 class="text-capitalize"> Campus Life </h2>
+
+        <div class="row"> 
+            <div class="travel_mainDiv"> 
+                <img class="img-responsive" src="JKL.jpg">
+                <h4  style="text-align: center;" class="text-capitalize"> <kbd> Justice Knowledge Love (JKL) </kbd> </h4>
+                <hr> 
+                <p class="text-muted text-left"> Recognized for it's positive, student-centered approach to teaching and learning, AIS values the sense of community within the school. Our school emblem, the Eagle, is a universal symbol of strength, endurance, and pride that unites everyone in our community under the motto: Justice, Knowledge, and Love. </p>
+            </div>
+
+            <div class="travel_mainDiv"> 
+                <img class="img-responsive" src="Swimming Pool.jpg">
+                <h4 style="text-align: center;" class="text-capitalize"> <kbd> Swimming Pool </kbd> </h4>
+                <hr> 
+                <p class="text-muted text-left"> This is the AIS swimming pool. Students learn / practice their swimming techniques during Physical Education period. The front side is shallow and the back side is deep. Ususallly, the front is used for beginners and the back is used for intermediate / advanced. Students play many fun activites in the pool such as basketball and volleyball. </p>
+            </div>
+
+            <div class="travel_mainDiv"> 
+                <img class="img-responsive" src="Basketball Court.jpg" alt="">
+                <h4 style="text-align: center;" class="text-capitalize"> <kbd> Basketball Court / Classrooms </kbd> </h4>
+                <hr> 
+                <p class="text-muted text-left"> This is where the students spend their reccess. Here, students can play basketball, volleyball, and soccer. Students can also spend this time gathering with their friends. After their recess, students head to their classrooms which are above the court. Students also have lockers, where they keep their belongings throughout the day. </p>
+            </div>
+        </div>
+
+        <div class="page-header" id="achievements"> 
+            <h2 class="text-capitalize"> School Achievements </h2>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievements1"> 
+            TEDx American International School HK <i class="fa fa-sort-desc"> </i>
+        </div>
+
+        <div id="school_achievements1" class="collapse"> 
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID"> 
+                <img src="Screenshot (101).png" class="img-responsivwe img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text"> 
+                <h5 class="text-success text-left text-capitalize"> TEDx American International School HK </h5>
+                <p> TEDx American International School HK was once again held virtually with the event theme of Unmasked. Our 8 speakers, ranging from sixth to twelfth grade, unveiled their ideas worth spreading and voiced their true thoughts on them. All speakers had participated and worked hard throughout the second and third trimester in the TED-ED Club to develop their talks. </p>
+            </div>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievements2"> 
+            AIS Middle School Samba Band <i class="fa fa-sort-desc"> </i>
+        </div>
+
+        <div id="school_achievements2" class="collapse"> 
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID2"> 
+                <iframe class="img-thumbnail" src="https://www.youtube.com/embed/yLw9GhrozHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text"> 
+                <h5 class="text-success text-left text-capitalize"> AIS Middle School Samba Band </h5>
+                <p> The symbolism of a mask can be interpreted in many different ways, but for some, it means keeping things hidden, inaccessible, and isolated. This translates to the recent experience of the AIS Middle School Samba Band, as an isolated existence caused by a lockdown resulted in the inaccessibility to communal music-making. And yet now, as the band comes together in more favorable circumstances, these limitations are removed and the collaborative force of drumming can be heard pulsing through the AIS campus once more. </p>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new"> 
+            <h2 class="text-capitalize"> What's New </h2>
+        </div>
+
+        <ul class="list-grpup"> 
+            <li class="list-grpup-item list-group-item-success col-md-12 col-sm-12 col-xs-12 environment_li"> 
+                <h4> MS Band Slam 2021 Winner </h4>
+                <iframe class="img-thumbnail" id="Drum" src="https://www.youtube.com/embed/iL8kYYR7z7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+                <p class="list-grpup-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> Contratulatiions to our MS Band Slam Winner! What a great showcase of talented musicians in our Middle School Divisions. Music has adopted a simmilar real - world mode of learning, with students cosidering the current needs of musicians regarding alternatives to live envents and concerts. This learning resulted in online "Band Slam" concert, where pre-recorded video content was presented digitally in real time to the whole middle school. </p>
+            </li>
+        </ul>
+
+        <ul class="list-grpup"> 
+            <li class="list-grpup-item list-group-item-success col-md-12 col-sm-12 col-xs-12 environment_li"> 
+                <h4> End Of Year Award Ceremonies </h4>
+                <img class="img-thumbnail" src="Screenshot (102).png" alt="">
+                <p class="list-grpup-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> Congratulations to another year completed! We are extremely proud of our learning community for making this a special year despite the incredible challenges we faced. We came together and never gave up. We acted with kindness and we commited to exellence. Thank you for staying strong. As always, we celebrate our students' achievements on the last day of our academic year with and End Of Year Awards Ceremony. </p>
+            </li>
+        </ul>
+        
+        <div class="container"> 
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize" style="text-align: center;"> Contact Us </h2>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.5801540177936!2d114.17635181457457!3d22.331712747397983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404073293d88209%3A0xb886ec4a3270731a!2sAmerican%20International%20School!5e0!3m2!1sen!2shk!4v1625052844243!5m2!1sen!2shk" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div id="details">
+            <img src="Head Of School.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <br><br>
+            <h3> Head Of School Name: </h3>
+            <h4> Ms. Anita Simpson </h4>
+                 <div class="contact_1">
+                     <a href="mailto:admin@ais.edu.hk?Subject=Hi">
+                         <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;admin@ais.edu.hk</h5>
+                     </a>
+                     <a href="#">
+                         <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;aishongkong</h5>
+                     </a>
+                     <a href="#">
+                         <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;+852 2336-3812</h5>
+                     </a>
+                 </div>
+                </div>
+    </div>
+
+    </body>
+</html>
